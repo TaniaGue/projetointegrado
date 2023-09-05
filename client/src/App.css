@@ -1,0 +1,43 @@
+
+.content {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 25rem;
+}
+
+button {
+  background-color: #c0c0c0;
+  border: 1px solid #d0d0d0;
+  border-radius: .4rem;
+  margin: .5rem .25rem;
+  padding: .5rem;
+  width: 100%;
+  font-size: .75rem;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.btn-edit {
+  background-color: #0c0;
+}
+
+.btn-delete {
+  background-color: #c00;
+}
+
+
